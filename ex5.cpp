@@ -1,5 +1,5 @@
 /*
-    p1051, 简单的输入输出判断
+    p1051, 简单判断
 */
 #include <iostream>
 #include <string>
