@@ -34,4 +34,6 @@ echo -e "\nOther:"
 run_test "Base Sort" baseSort
 run_test "Shell Sort" shellSort
 
+echo -e "\ncpp:"
+run_test "algoritm.sort" sort
 echo "================================================"

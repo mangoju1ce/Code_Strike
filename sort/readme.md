@@ -18,6 +18,9 @@ Merge Sort                         21 ms
 Other:
 Base Sort                          37 ms
 Shell Sort                         27 ms
+
+cpp:
+algoritm.sort                      39 ms
 ================================================
 
 ##开启o2优化后输出如下：
@@ -38,6 +41,9 @@ Merge Sort                         21 ms
 Other:
 Base Sort                          19 ms
 Shell Sort                         20 ms
+
+cpp:
+algoritm.sort                      30 ms
 ================================================
 
 
