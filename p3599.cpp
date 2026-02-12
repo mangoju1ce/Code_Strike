@@ -84,13 +84,13 @@ void solve2(int n) {
     c[0] = 1;
     c[1] = 1;
     for(int j = 2; j < n; j++) {
-        c[j] = (n-(n/j)*c[n%j]) % n;
+        c[j] = (n - 1LL*(n/j)*c[n%j]%n) % n;//这个位置在数字比较大的时候可能出现乘积爆了int
         c[j] = (c[j] + n) % n;//防止负数
     }
 
     cout << 2 << " " << 1 << " ";
     for(int j = 2; j < n; j++) {
-        cout << (c[j-1]*j)%n << " ";
+        cout << (1LL *c[j-1]*j)%n << " ";//这里同理
     }
     cout << n << endl;
 }
